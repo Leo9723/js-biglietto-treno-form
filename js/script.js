@@ -11,11 +11,11 @@ button.addEventListener('click', function(){
 
     console.log(eta)
 
-    if (eta.value = 'minorenne'){
+    if (eta == 'minorenne'){
         prezzo_finale = parseFloat(prezzo * 0.8).toFixed(2)
         tipo_biglietto = 'biglietto per minorenne'
     }
-    else if (eta.value = 'over_65'){
+    else if (eta == 'over_65'){
         prezzo_finale = parseFloat(prezzo * 0.6).toFixed(2)
         tipo_biglietto = 'biglietto per over 65'
     }
